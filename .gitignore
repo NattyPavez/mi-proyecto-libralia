@@ -1,0 +1,16 @@
+# Archivos de compilación Java
+*.class
+
+# Archivos de configuración del IDE
+.idea/
+*.iml
+
+# Salida de compilación (si usás out/)
+out/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos personales
+*.log
