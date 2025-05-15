@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 public class Usuario {
     private String nombreUsuario;
+    private int edad;
     private String descripcion;
     private String listaLecturaActual;
     private String listaDeDeseos;
@@ -34,6 +35,14 @@ public class Usuario {
     }
 
     // Getters y setters
+    public int getEdad() {
+        return edad;
+    }
+
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+
     public String getNombreUsuario() {
         return nombreUsuario;
     }
